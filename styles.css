@@ -1,0 +1,93 @@
+
+body{
+  background: #d3e0ea;
+  margin-top: 50px;
+}
+
+@media max {
+
+}
+h1{
+  font-family: 'Nunito', sans-serif;
+}
+
+h3 {
+  font-family: 'Nunito', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+span{
+  color: #bbbbbb;
+}
+
+.profile-pic{
+  float: left;
+  border-radius: 50%;
+  border-style: solid;
+  margin-right: 20px;
+}
+
+.testimonial {
+  margin: 20px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.white-text{
+  color: white;
+}
+
+.clifford{
+  background-color: #7868e6;
+  border-radius: 25px; /*Remember that for border-radius you must use px, not %*/
+  padding: 40px;
+  display: inline-block;
+  position:re;
+  left: 30px;
+  width: 45%;
+}
+
+.quotation{
+  background-image: url('images/bg-pattern-quotation.svg');
+  opacity: 0.9;
+  position: absolute;
+  top: 0;
+  right: 100px;
+  width: 15%;
+}
+
+.jonathan{
+  background-color: #30475e;
+  border-radius: 25px;
+  padding: 40px;
+  display: inline-block;
+    position:relative;
+    left: 800px;
+    bottom: 500px;
+    width: 15%;
+}
+
+.jeanette{
+  background-color: white;
+  border-radius: 25px;
+  padding: 40px;
+  border-image: none;
+    position:static;
+    display: inline-block;
+}
+
+.kira{
+  background-color: white;
+  border-radius: 25px;
+  padding: 40px;
+    position:static;
+    display: inline-block;
+}
+
+.patrick{
+  background-color: black;
+  border-radius: 25px;
+  padding: 40px;
+  display: inline-block;
+    position:static;
+}
